@@ -1,0 +1,25 @@
+.Header {
+    display: flex;
+    width: 100%;
+    height: 12.5rem;
+    align-items: center;
+    justify-content: center;
+    background: var(--gray-700);
+
+   
+}
+
+.H1 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: var(--blue-500);
+    margin-left: 0.75rem;
+}
+
+.H2 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: var(--blueDark-500);
+}

@@ -1,0 +1,26 @@
+.Container {
+    width: 1.125rem;
+    height: 1.125rem;
+    border: 2px solid var(--blue-500);
+    border-radius: 999px;
+}
+
+.Container:hover {
+    cursor:pointer;
+
+    border-color: var(--gray-100);
+}
+
+.ContainerChecked {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.125rem;
+    height: 1.125rem;
+    background-color: var(--purpleDark-500);
+    border-radius: 999px;
+}
+
+.ContainerChecked:hover {
+    cursor:pointer;
+}

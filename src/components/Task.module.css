@@ -1,0 +1,45 @@
+.Container {
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    background-color: var(--gray-500);
+    gap: 1rem;
+    align-items: center;
+    justify-content: start;
+    
+    color: var(--gray-100);
+
+    border: 1px solid var(--gray-400);
+    border-radius: 8px;
+
+    font-size: 0.875rem;
+}
+
+.Container p {
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    display: flex;
+}
+
+.Container + .Container {
+    margin-top: 0.75rem;
+}
+
+.Trash {
+    margin-left: auto;
+    color: var(--gray-300);
+    transition: color 0.2s;
+}
+
+
+
+.Trash:hover {
+    cursor: pointer;
+    color: var(--danger);
+}
+
+.TitleDone{
+    text-decoration: line-through;
+    color: var(--gray-300);
+}
